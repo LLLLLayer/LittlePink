@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78937F4F2647AA0F00EB58BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F4E2647AA0F00EB58BD /* AppDelegate.swift */; };
+		78937F512647AA0F00EB58BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F502647AA0F00EB58BD /* SceneDelegate.swift */; };
+		78937F532647AA0F00EB58BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F522647AA0F00EB58BD /* ViewController.swift */; };
+		78937F562647AA0F00EB58BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78937F542647AA0F00EB58BD /* Main.storyboard */; };
+		78937F592647AA0F00EB58BD /* LittlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78937F572647AA0F00EB58BD /* LittlePink.xcdatamodeld */; };
+		78937F5B2647AA0F00EB58BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78937F5A2647AA0F00EB58BD /* Assets.xcassets */; };
+		78937F5E2647AA0F00EB58BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78937F5C2647AA0F00EB58BD /* LaunchScreen.storyboard */; };
+		78937F692647AA1000EB58BD /* LittlePinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F682647AA1000EB58BD /* LittlePinkTests.swift */; };
+		78937F742647AA1000EB58BD /* LittlePinkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F732647AA1000EB58BD /* LittlePinkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78937F652647AA1000EB58BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78937F432647AA0F00EB58BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78937F4A2647AA0F00EB58BD;
+			remoteInfo = LittlePink;
+		};
+		78937F702647AA1000EB58BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 78937F432647AA0F00EB58BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78937F4A2647AA0F00EB58BD;
+			remoteInfo = LittlePink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78937F4B2647AA0F00EB58BD /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78937F4E2647AA0F00EB58BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		78937F502647AA0F00EB58BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		78937F522647AA0F00EB58BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		78937F552647AA0F00EB58BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78937F582647AA0F00EB58BD /* LittlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittlePink.xcdatamodel; sourceTree = "<group>"; };
+		78937F5A2647AA0F00EB58BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78937F5D2647AA0F00EB58BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78937F5F2647AA0F00EB58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78937F642647AA1000EB58BD /* LittlePinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78937F682647AA1000EB58BD /* LittlePinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkTests.swift; sourceTree = "<group>"; };
+		78937F6A2647AA1000EB58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78937F6F2647AA1000EB58BD /* LittlePinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittlePinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78937F732647AA1000EB58BD /* LittlePinkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittlePinkUITests.swift; sourceTree = "<group>"; };
+		78937F752647AA1000EB58BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78937F482647AA0F00EB58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F612647AA1000EB58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F6C2647AA1000EB58BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78937F422647AA0F00EB58BD = {
+			isa = PBXGroup;
+			children = (
+				78937F4D2647AA0F00EB58BD /* LittlePink */,
+				78937F672647AA1000EB58BD /* LittlePinkTests */,
+				78937F722647AA1000EB58BD /* LittlePinkUITests */,
+				78937F4C2647AA0F00EB58BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78937F4C2647AA0F00EB58BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78937F4B2647AA0F00EB58BD /* LittlePink.app */,
+				78937F642647AA1000EB58BD /* LittlePinkTests.xctest */,
+				78937F6F2647AA1000EB58BD /* LittlePinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78937F4D2647AA0F00EB58BD /* LittlePink */ = {
+			isa = PBXGroup;
+			children = (
+				78937F4E2647AA0F00EB58BD /* AppDelegate.swift */,
+				78937F502647AA0F00EB58BD /* SceneDelegate.swift */,
+				78937F522647AA0F00EB58BD /* ViewController.swift */,
+				78937F542647AA0F00EB58BD /* Main.storyboard */,
+				78937F5A2647AA0F00EB58BD /* Assets.xcassets */,
+				78937F5C2647AA0F00EB58BD /* LaunchScreen.storyboard */,
+				78937F5F2647AA0F00EB58BD /* Info.plist */,
+				78937F572647AA0F00EB58BD /* LittlePink.xcdatamodeld */,
+			);
+			path = LittlePink;
+			sourceTree = "<group>";
+		};
+		78937F672647AA1000EB58BD /* LittlePinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				78937F682647AA1000EB58BD /* LittlePinkTests.swift */,
+				78937F6A2647AA1000EB58BD /* Info.plist */,
+			);
+			path = LittlePinkTests;
+			sourceTree = "<group>";
+		};
+		78937F722647AA1000EB58BD /* LittlePinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				78937F732647AA1000EB58BD /* LittlePinkUITests.swift */,
+				78937F752647AA1000EB58BD /* Info.plist */,
+			);
+			path = LittlePinkUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78937F4A2647AA0F00EB58BD /* LittlePink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78937F782647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePink" */;
+			buildPhases = (
+				78937F472647AA0F00EB58BD /* Sources */,
+				78937F482647AA0F00EB58BD /* Frameworks */,
+				78937F492647AA0F00EB58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittlePink;
+			productName = LittlePink;
+			productReference = 78937F4B2647AA0F00EB58BD /* LittlePink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		78937F632647AA1000EB58BD /* LittlePinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78937F7B2647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePinkTests" */;
+			buildPhases = (
+				78937F602647AA1000EB58BD /* Sources */,
+				78937F612647AA1000EB58BD /* Frameworks */,
+				78937F622647AA1000EB58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78937F662647AA1000EB58BD /* PBXTargetDependency */,
+			);
+			name = LittlePinkTests;
+			productName = LittlePinkTests;
+			productReference = 78937F642647AA1000EB58BD /* LittlePinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		78937F6E2647AA1000EB58BD /* LittlePinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78937F7E2647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePinkUITests" */;
+			buildPhases = (
+				78937F6B2647AA1000EB58BD /* Sources */,
+				78937F6C2647AA1000EB58BD /* Frameworks */,
+				78937F6D2647AA1000EB58BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78937F712647AA1000EB58BD /* PBXTargetDependency */,
+			);
+			name = LittlePinkUITests;
+			productName = LittlePinkUITests;
+			productReference = 78937F6F2647AA1000EB58BD /* LittlePinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78937F432647AA0F00EB58BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					78937F4A2647AA0F00EB58BD = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					78937F632647AA1000EB58BD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 78937F4A2647AA0F00EB58BD;
+					};
+					78937F6E2647AA1000EB58BD = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 78937F4A2647AA0F00EB58BD;
+					};
+				};
+			};
+			buildConfigurationList = 78937F462647AA0F00EB58BD /* Build configuration list for PBXProject "LittlePink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78937F422647AA0F00EB58BD;
+			productRefGroup = 78937F4C2647AA0F00EB58BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78937F4A2647AA0F00EB58BD /* LittlePink */,
+				78937F632647AA1000EB58BD /* LittlePinkTests */,
+				78937F6E2647AA1000EB58BD /* LittlePinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78937F492647AA0F00EB58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78937F5E2647AA0F00EB58BD /* LaunchScreen.storyboard in Resources */,
+				78937F5B2647AA0F00EB58BD /* Assets.xcassets in Resources */,
+				78937F562647AA0F00EB58BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F622647AA1000EB58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F6D2647AA1000EB58BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78937F472647AA0F00EB58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78937F532647AA0F00EB58BD /* ViewController.swift in Sources */,
+				78937F4F2647AA0F00EB58BD /* AppDelegate.swift in Sources */,
+				78937F512647AA0F00EB58BD /* SceneDelegate.swift in Sources */,
+				78937F592647AA0F00EB58BD /* LittlePink.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F602647AA1000EB58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78937F692647AA1000EB58BD /* LittlePinkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78937F6B2647AA1000EB58BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78937F742647AA1000EB58BD /* LittlePinkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		78937F662647AA1000EB58BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78937F4A2647AA0F00EB58BD /* LittlePink */;
+			targetProxy = 78937F652647AA1000EB58BD /* PBXContainerItemProxy */;
+		};
+		78937F712647AA1000EB58BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 78937F4A2647AA0F00EB58BD /* LittlePink */;
+			targetProxy = 78937F702647AA1000EB58BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		78937F542647AA0F00EB58BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78937F552647AA0F00EB58BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78937F5C2647AA0F00EB58BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78937F5D2647AA0F00EB58BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78937F762647AA1000EB58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		78937F772647AA1000EB58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78937F792647AA1000EB58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78937F7A2647AA1000EB58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		78937F7C2647AA1000EB58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePinkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink.app/LittlePink";
+			};
+			name = Debug;
+		};
+		78937F7D2647AA1000EB58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePinkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LittlePink.app/LittlePink";
+			};
+			name = Release;
+		};
+		78937F7F2647AA1000EB58BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittlePink;
+			};
+			name = Debug;
+		};
+		78937F802647AA1000EB58BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q2T8TN4ZW6;
+				INFOPLIST_FILE = LittlePinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Layer.LittlePinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LittlePink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78937F462647AA0F00EB58BD /* Build configuration list for PBXProject "LittlePink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78937F762647AA1000EB58BD /* Debug */,
+				78937F772647AA1000EB58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78937F782647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78937F792647AA1000EB58BD /* Debug */,
+				78937F7A2647AA1000EB58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78937F7B2647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78937F7C2647AA1000EB58BD /* Debug */,
+				78937F7D2647AA1000EB58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78937F7E2647AA1000EB58BD /* Build configuration list for PBXNativeTarget "LittlePinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78937F7F2647AA1000EB58BD /* Debug */,
+				78937F802647AA1000EB58BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		78937F572647AA0F00EB58BD /* LittlePink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78937F582647AA0F00EB58BD /* LittlePink.xcdatamodel */,
+			);
+			currentVersion = 78937F582647AA0F00EB58BD /* LittlePink.xcdatamodel */;
+			path = LittlePink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 78937F432647AA0F00EB58BD /* Project object */;
+}
