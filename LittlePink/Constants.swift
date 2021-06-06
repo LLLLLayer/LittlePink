@@ -16,3 +16,6 @@ let kNearViewControllerID = "NearVCID"
 let kWaterFallCellID = "WaterFallCellID"
 
 let kWaterfallPadding: CGFloat = 4.0
+let kWaterfallCollectionVCID = "WaterfallCollectionVCID"
+
+let kChannels = ["推荐", "视频", "直播", "美食", "高效", "学习", "Vlog", "萌宠", "游戏", "音乐", "护肤", "影视综艺", "穿搭", "体育", "数码科技"]
