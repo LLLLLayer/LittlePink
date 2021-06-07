@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--我的-->
+        <!--Mine-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
@@ -20,13 +20,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="我的" image="person.fill" catalog="system" id="0tY-Io-CuH"/>
+                    <tabBarItem key="tabBarItem" title="Mine" image="person.fill" catalog="system" id="0tY-Io-CuH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-88" y="2310"/>
         </scene>
-        <!--商场-->
+        <!--Mall-->
         <scene sceneID="zRs-O4-0ya">
             <objects>
                 <viewController id="AB9-28-Xte" sceneMemberID="viewController">
@@ -36,13 +36,13 @@
                         <viewLayoutGuide key="safeArea" id="dxB-QO-cKT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="商场" image="cart.fill" catalog="system" id="k1Q-JS-uie"/>
+                    <tabBarItem key="tabBarItem" title="Mall" image="cart.fill" catalog="system" id="k1Q-JS-uie"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ijt-1Y-RGx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-88" y="302"/>
         </scene>
-        <!--发布-->
+        <!--Release-->
         <scene sceneID="543-qJ-gfW">
             <objects>
                 <viewController id="b2F-2S-J1s" sceneMemberID="viewController">
@@ -52,13 +52,13 @@
                         <viewLayoutGuide key="safeArea" id="e48-WN-SKn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="发布" image="plus.rectangle.fill" catalog="system" id="JBV-gc-RCc"/>
+                    <tabBarItem key="tabBarItem" title="Release" image="plus.rectangle.fill" catalog="system" id="JBV-gc-RCc"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8AI-d5-ff2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-88" y="976"/>
         </scene>
-        <!--消息-->
+        <!--Message-->
         <scene sceneID="bT9-j7-1Eg">
             <objects>
                 <viewController id="Wzt-U1-l5M" sceneMemberID="viewController">
@@ -68,13 +68,13 @@
                         <viewLayoutGuide key="safeArea" id="yWW-8a-ns2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="消息" image="message.fill" catalog="system" badgeValue="99+" id="Ycm-fy-X8P"/>
+                    <tabBarItem key="tabBarItem" title="Message" image="message.fill" catalog="system" badgeValue="99+" id="Ycm-fy-X8P"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="88N-tQ-YSL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-88" y="1636"/>
         </scene>
-        <!--首页-->
+        <!--Home-->
         <scene sceneID="cFz-ZQ-G0M">
             <objects>
                 <viewController id="hHP-em-ea0" customClass="HomeViewController" customModule="LittlePink" customModuleProvider="target" sceneMemberID="viewController">
@@ -117,7 +117,7 @@
                             <constraint firstItem="INU-Di-8QL" firstAttribute="leading" secondItem="AiE-V0-Hve" secondAttribute="leading" id="tiV-4I-m40"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="首页" image="house.fill" catalog="system" id="Npc-Yt-wJJ"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="Npc-Yt-wJJ"/>
                     <connections>
                         <outlet property="buttonBarView" destination="INU-Di-8QL" id="h6T-Q9-BKL"/>
                         <outlet property="containerView" destination="NaW-cP-tpN" id="uNq-Yz-aUw"/>

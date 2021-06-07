@@ -1,8 +1,57 @@
 {
   "images" : [
     {
+      "filename" : "launchScreenImage-1.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "launchScreenImage_dark.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "launchScreenImage@2x-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "launchScreenImage_dark@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "launchScreenImage@3x-1.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "launchScreenImage_dark@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    },
+    {
       "filename" : "launchScreenImage.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "1x"
     },
     {
@@ -14,11 +63,13 @@
       ],
       "filename" : "launchScreenImage-Dark.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "1x"
     },
     {
       "filename" : "launchScreenImage@2x.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "2x"
     },
     {
@@ -30,11 +81,13 @@
       ],
       "filename" : "launchScreenImage-Dark@2x.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "2x"
     },
     {
       "filename" : "launchScreenImage@3x.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "3x"
     },
     {
@@ -46,11 +99,15 @@
       ],
       "filename" : "launchScreenImage-Dark@3x.png",
       "idiom" : "universal",
+      "locale" : "zh-Hans",
       "scale" : "3x"
     }
   ],
   "info" : {
     "author" : "xcode",
     "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }

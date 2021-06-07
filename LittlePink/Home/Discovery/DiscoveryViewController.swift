@@ -32,7 +32,7 @@ class DiscoveryViewController: ButtonBarPagerTabStripViewController, IndicatorIn
     }
     
     func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        IndicatorInfo(title: "发现")
+        IndicatorInfo(title: NSLocalizedString("Discovery", comment: ""))
     }
     
     override func viewControllers(for pagerTabStripController: PagerTabStripViewController) -> [UIViewController] {

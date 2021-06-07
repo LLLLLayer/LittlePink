@@ -1,0 +1,23 @@
+
+/* Class = "UITabBarItem"; title = "Mine"; ObjectID = "0tY-Io-CuH"; */
+//"0tY-Io-CuH.title" = "Mine";
+"0tY-Io-CuH.title" = "我的";
+
+/* Class = "UITabBarItem"; title = "Release"; ObjectID = "JBV-gc-RCc"; */
+//"JBV-gc-RCc.title" = "Release";
+"JBV-gc-RCc.title" = "发布";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "Npc-Yt-wJJ"; */
+//"Npc-Yt-wJJ.title" = "Home";
+"Npc-Yt-wJJ.title" = "首页";
+
+/* Class = "UITabBarItem"; badgeValue = "99+"; ObjectID = "Ycm-fy-X8P"; */
+"Ycm-fy-X8P.badgeValue" = "99+";
+
+/* Class = "UITabBarItem"; title = "Message"; ObjectID = "Ycm-fy-X8P"; */
+//"Ycm-fy-X8P.title" = "Message";
+"Ycm-fy-X8P.title" = "消息";
+
+/* Class = "UITabBarItem"; title = "Mall"; ObjectID = "k1Q-JS-uie"; */
+//"k1Q-JS-uie.title" = "Mall";
+"k1Q-JS-uie.title" = "商场";

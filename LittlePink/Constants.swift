@@ -18,4 +18,18 @@ let kWaterFallCellID = "WaterFallCellID"
 let kWaterfallPadding: CGFloat = 4.0
 let kWaterfallCollectionVCID = "WaterfallCollectionVCID"
 
-let kChannels = ["推荐", "视频", "直播", "美食", "高效", "学习", "Vlog", "萌宠", "游戏", "音乐", "护肤", "影视综艺", "穿搭", "体育", "数码科技"]
+let kChannels = [NSLocalizedString("Recommended", comment: ""),
+                 NSLocalizedString("Video", comment: ""),
+                 NSLocalizedString("Live", comment: ""),
+                 NSLocalizedString("Food", comment: ""),
+                 NSLocalizedString("Funny", comment: ""),
+                 NSLocalizedString("Learning", comment: ""),
+                 NSLocalizedString("Vlog", comment: ""),
+                 NSLocalizedString("Meng pet", comment: ""),
+                 NSLocalizedString("Game", comment: ""),
+                 NSLocalizedString("Music", comment: ""),
+                 NSLocalizedString("Skin care", comment: ""),
+                 NSLocalizedString("Variety of Film and Television", comment: ""),
+                 NSLocalizedString("Fit", comment: ""),
+                 NSLocalizedString("Sports", comment: ""),
+                 NSLocalizedString("Digital Technology", comment: "")]

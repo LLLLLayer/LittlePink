@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		7827F638266CB565008FA7EA /* WaterfallCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827F637266CB565008FA7EA /* WaterfallCollectionViewController.swift */; };
 		7827F63A266CB863008FA7EA /* WaterfallCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7827F639266CB863008FA7EA /* WaterfallCollectionViewCell.swift */; };
+		7827F63D266E0A02008FA7EA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7827F63C266E0A02008FA7EA /* README.md */; };
+		78761D00266E146100DCB663 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78761D02266E146100DCB663 /* Localizable.strings */; };
+		78761D05266E35B200DCB663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78761D07266E35B200DCB663 /* InfoPlist.strings */; };
 		78937F4F2647AA0F00EB58BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F4E2647AA0F00EB58BD /* AppDelegate.swift */; };
 		78937F512647AA0F00EB58BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78937F502647AA0F00EB58BD /* SceneDelegate.swift */; };
 		78937F562647AA0F00EB58BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78937F542647AA0F00EB58BD /* Main.storyboard */; };
@@ -46,6 +49,11 @@
 		74BC90DD4D175BEE114733AA /* Pods-LittlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LittlePink.release.xcconfig"; path = "Target Support Files/Pods-LittlePink/Pods-LittlePink.release.xcconfig"; sourceTree = "<group>"; };
 		7827F637266CB565008FA7EA /* WaterfallCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCollectionViewController.swift; sourceTree = "<group>"; };
 		7827F639266CB863008FA7EA /* WaterfallCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCollectionViewCell.swift; sourceTree = "<group>"; };
+		7827F63C266E0A02008FA7EA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7827F63F266E0C3C008FA7EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		78761CFD266E108F00DCB663 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		78761D01266E146100DCB663 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		78761D06266E35B200DCB663 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		78937F4B2647AA0F00EB58BD /* LittlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78937F4E2647AA0F00EB58BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78937F502647AA0F00EB58BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,9 +120,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7827F63B266E09A0008FA7EA /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				78D2B4F2264A262600203DA2 /* DiscoveryViewController.swift */,
+				7827F639266CB863008FA7EA /* WaterfallCollectionViewCell.swift */,
+				7827F637266CB565008FA7EA /* WaterfallCollectionViewController.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
 		78937F422647AA0F00EB58BD = {
 			isa = PBXGroup;
 			children = (
+				7827F63C266E0A02008FA7EA /* README.md */,
 				78937F4D2647AA0F00EB58BD /* LittlePink */,
 				78937F672647AA1000EB58BD /* LittlePinkTests */,
 				78937F722647AA1000EB58BD /* LittlePinkUITests */,
@@ -142,6 +161,7 @@
 				78937F542647AA0F00EB58BD /* Main.storyboard */,
 				78D2B4FA264A28FE00203DA2 /* Home */,
 				78D2B4F8264A27B300203DA2 /* Constants.swift */,
+				78F2BE50266E3EFC00DDC12C /* Resources */,
 				78937F5A2647AA0F00EB58BD /* Assets.xcassets */,
 				78937F5C2647AA0F00EB58BD /* LaunchScreen.storyboard */,
 				78937F5F2647AA0F00EB58BD /* Info.plist */,
@@ -173,12 +193,19 @@
 			children = (
 				78D2B4EE26496B2D00203DA2 /* HomeViewController.swift */,
 				78D2B4F6264A268100203DA2 /* FollowViewController.swift */,
-				78D2B4F2264A262600203DA2 /* DiscoveryViewController.swift */,
 				78D2B4F4264A265100203DA2 /* NearViewController.swift */,
-				7827F637266CB565008FA7EA /* WaterfallCollectionViewController.swift */,
-				7827F639266CB863008FA7EA /* WaterfallCollectionViewCell.swift */,
+				7827F63B266E09A0008FA7EA /* Discovery */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		78F2BE50266E3EFC00DDC12C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78761D02266E146100DCB663 /* Localizable.strings */,
+				78761D07266E35B200DCB663 /* InfoPlist.strings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +295,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 78937F422647AA0F00EB58BD;
 			productRefGroup = 78937F4C2647AA0F00EB58BD /* Products */;
@@ -286,8 +314,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78761D00266E146100DCB663 /* Localizable.strings in Resources */,
+				78761D05266E35B200DCB663 /* InfoPlist.strings in Resources */,
 				78937F5E2647AA0F00EB58BD /* LaunchScreen.storyboard in Resources */,
 				78937F5B2647AA0F00EB58BD /* Assets.xcassets in Resources */,
+				7827F63D266E0A02008FA7EA /* README.md in Resources */,
 				78937F562647AA0F00EB58BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +431,27 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		78761D02266E146100DCB663 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78761D01266E146100DCB663 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		78761D07266E35B200DCB663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78761D06266E35B200DCB663 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		78937F542647AA0F00EB58BD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				78937F552647AA0F00EB58BD /* Base */,
+				78761CFD266E108F00DCB663 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -412,6 +460,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				78937F5D2647AA0F00EB58BD /* Base */,
+				7827F63F266E0C3C008FA7EA /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -423,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -484,6 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
